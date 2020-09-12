@@ -1,0 +1,5 @@
+command to start a kubernetes cluster
+  i) store zone with "export MY-ZONE=us-central1-a"
+
+  ii) then run 
+  gcloud container clusters create webfrontend --zone $MY_ZONE --num-nodes 2
